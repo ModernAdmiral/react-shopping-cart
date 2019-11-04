@@ -9,7 +9,7 @@ const Navigation = () => {
     <div className="navigation">
       <NavLink to="/">Products</NavLink>
       <NavLink to="/cart">
-        Cart <span>{cart.length}</span>
+        Cart <span>{Object.keys(cart).length}</span>
       </NavLink>
     </div>
   );
